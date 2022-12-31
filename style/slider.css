@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+* {
+  text-decoration: none;
+  color: white;
+  padding: 0%;
+  margin: 0%;
+}
+.promo4 {
+  height: 50vw;
+  background: url(../img/Fon_home.png) center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.slider_fon {
+  width: 90%;
+  height: 90%;
+  background: linear-gradient(
+    to top,
+    #ffffff48 20%,
+    #ffffff24 50%,
+    #ffffff00 90%
+  );
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.slider {
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+}
+.slider_info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.slider_link {
+  display: flex;
+  width: 500%;
+  height: 100%;
+  position: relative;
+  left: 0%;
+  transition: all ease 1s;
+}
+.arrow {
+  width: 3%;
+  cursor: pointer;
+}
+.img_certificate {
+  width: 50%;
+}
+.max_img {
+  width: 35%;
+}
+.max_img2{
+  width: 20%;
+}
+.arrow:hover {
+  width: 2.5%;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+@media (max-width: 450px) {
+  .img_certificate {
+    width: 70%;
+  }
+  .max_img {
+    width: 40%;
+  }
+  .max_img2 {
+    width: 20%;
+  }
+  .slider_fon{
+    margin-top: 10%;
+  }
+}

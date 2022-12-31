@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+* {
+  text-decoration: none;
+  color: white;
+  padding: 0%;
+  margin: 0%;
+}
+.promo7 {
+  height: 50vw;
+  background: url(../img/Fon_home.png) center center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.bt{
+  border: white solid 2px;
+  width: 100%;
+}
+.quest_home{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.questions{
+  width: 80%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.questions_btn1, .questions_btn2, .questions_btn3, .questions_btn4{
+  width: 100%;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.questions_text1, .questions_text2, .questions_text3, .questions_text4{
+  width: 80%;
+  display: none;
+  margin-top: 2%;
+}
+.questions_p{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.h1001, .h1002, .h1003, .h1004{
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.h100:hover{
+  transition: all ease 1s;
+}
+.questions_tarif{
+  margin: 0 0 0 10%;
+}
+@media (max-width: 1050px) {
+  .promo7{
+    height: 100%;
+    padding-top: 10%;
+  }
+  .questions_p{
+    font-size: 20px;
+  }
+  .questions_btn1, .questions_btn2, .questions_btn3, .questions_btn4{
+    font-size: 20px;
+  }
+  .questions_text1, .questions_text2, .questions_text3, .questions_text4{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 850px) {
+  .promo7{
+    height: 100%;
+    padding-top: 10%;
+  }
+  .questions_p{
+    font-size: 20px;
+  }
+  .questions_btn1, .questions_btn2, .questions_btn3, .questions_btn4{
+    font-size: 20px;
+  }
+  .questions_text1, .questions_text2, .questions_text3, .questions_text4{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 450px) {
+  .promo7{
+    height: 100%;
+    padding-top: 10%;
+  }
+  .questions_p{
+    font-size: 20px;
+  }
+  .questions_btn1, .questions_btn2, .questions_btn3, .questions_btn4{
+    font-size: 20px;
+  }
+  .questions_text1, .questions_text2, .questions_text3, .questions_text4{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+}
