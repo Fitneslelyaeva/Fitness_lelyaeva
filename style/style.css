@@ -5,11 +5,12 @@
 }
 .promo8{
     width: 100%;
-    height: 150px;
+    height: 200px;
     background: black;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .network{
     width: 30%;
@@ -20,9 +21,17 @@
 .img_network{
     width: 60px;
 }
+.network-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    font-size: 1em;
+}
+
 @media (max-width: 600px){
     .network{
-        width: 50%;
+        width: 70%;
     }
 }
 
