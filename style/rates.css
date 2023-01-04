@@ -64,6 +64,7 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 20px;
+  padding: 3% 0;
 }
 .pyb {
   color: black;
@@ -159,8 +160,9 @@ h6,
   }
   .rateys {
     width: 90%;
-    height: 450px;
+    height: 100%;
     margin: 5% 0;
+    padding: 2%;
   }
   .place,
   h6,
@@ -178,11 +180,23 @@ h6,
   }
   .rates {
     flex-direction: column;
+  } 
+  .rates_info{
+    margin: 3% 0;
   }
   .rateys {
     width: 90%;
-    height: 450px;
+    height: 100%;
     margin: 5% 0;
+  }
+  .name{
+    padding: 3% 0;
+  }
+  .rates_text{
+    margin: 3% 0;
+  }
+  .sub{
+    padding: 3% 0;
   }
   .place,
   h6,
