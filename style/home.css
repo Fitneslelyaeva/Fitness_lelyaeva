@@ -51,9 +51,10 @@
   background: none;
   border-radius: 5px;
   font-size: 30px;
+  background: #ffb809;
 }
 .home_button:hover {
-  background: rgba(255, 255, 255, 0.267);
+  background: #ff8703;
   transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
   cursor: pointer;
 }
