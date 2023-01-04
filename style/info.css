@@ -29,6 +29,7 @@
   font-size: 25px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
+  text-indent: 20px;
 }
 @media (max-width: 1720px) {
   .promo2 {
